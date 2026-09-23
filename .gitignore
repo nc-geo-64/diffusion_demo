@@ -1,3 +1,5 @@
 # Ignore notebook checkpoings
 .ipynb_checkpoints
 
+# Ignore output images
+*.png
