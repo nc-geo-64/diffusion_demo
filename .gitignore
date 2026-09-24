@@ -6,3 +6,11 @@
 
 # Ignore intermediate testing artifacts
 __pycache__/
+
+# Ignore .egg-info
+*.egg-info/
+
+# Ignore virtual env.
+
+venv
+
