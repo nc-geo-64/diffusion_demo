@@ -11,8 +11,10 @@ def plot_profile(xvals, yvals, color="r", title=None, outfile=None):
     plt.plot(xvals, yvals, color)
     plt.xlabel("distance")
     plt.ylabel("elevation")
-    plt.title(title)
-    plt.savefig(outfile)
+    if title is not None:
+        plt.title(title)
+    if outfile is not None:
+        plt.savefig(outfile)
 
 
 if __name__ == "__main__":
