@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OneD_diffusion"
+version = "0.6"
+dependencies = [
+    "matplotlib",
+    "numpy",
+]
+
+[project.optional-dependencies]
+testing = [
+  "pytest",
+  "nbmake",
+]
+
+[tool.setuptools]
+py-modules = ["OneD_diffusion"]
